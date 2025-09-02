@@ -2,6 +2,7 @@
 .bashrc
 .cache
 .config
+zimbra
 .cvs
 .cvsignore
 .env
