@@ -6,7 +6,7 @@ def instalar_seclists():
     destino.mkdir(exist_ok=True)
 
     if any(destino.iterdir()):
-        choice = input("[!] Ya existen listas en ./wordlist. ¿Reinstalar? (s/n): ").strip().lower()
+        choice = input("[!] Existen listas en ./wordlist. ¿Actualizar con SecList? (S/N): ").strip().lower()
         if choice != "s":
             print("[*] Instalación cancelada.")
             return
